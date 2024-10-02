@@ -14,7 +14,7 @@ Assumeix que teniu un servidor instal·lat amb un carregar de sistema GRUB. Un a
     > **✏️ Nota**:
     >
     > La opció `ro` indica que el sistema s'ha de muntar en mode de només lectura. Això significa que no es poden modificar els fitxers del sistema. Afegint la opció `init=/bin/bash`, indiquem al sistema que ha d'iniciar el procés d'inicialització amb `/bin/bash` en lloc del sistema d'inicialització habitual. Això ens permetrà accedir al sistema amb un intèrpret de comandes `bash` sense haver d'iniciar el sistema completament.
-
+#S'ha d'indicar que ro s'ha de cambiar per rw i no s'indica en cap lloc
 4. Prem la tecla `Ctrl + X` per a iniciar el sistema amb les opcions modificades.
 5. Un cop iniciat el sistema, hauries d'accedir a una consola `bash`.
 
