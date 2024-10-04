@@ -100,7 +100,7 @@ Aquestes opcions només es mantindran durant l'arrencada actual del sistema. Per
     > - `GRUB_TIMEOUT`: temps d'espera per a seleccionar una entrada del GRUB.
     > - `GRUB_DISABLE_OS_PROBER`: per defecte, en debian es troba activada. Per tant, no detectarà altres sistemes operatius instal·lat en el sistema.
 
-5. Desa els canvis i surt de l'editor de text.
+5. Desa els canvis i surt de l'editor de text. (S'hauria díndicar que per a guardar s'ha descriure :w i per a sortir :q)
 6. Un cop hagis modificat el fitxer de configuració del GRUB, hauràs de regenerar el fitxer de configuració del GRUB amb la comanda següent:
 
     ```bash
