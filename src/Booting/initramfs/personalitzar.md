@@ -22,7 +22,7 @@ En aquesta secció, personalitzarem la initramfs afegint un missatge personalitz
     > `unmkinitramfs` és una eina que permet descomprimir la imatge de la initramfs a un directori de treball. Això permet modificar els fitxers continguts en la initramfs.
 
 3. **Crea un nou fitxer de script amb un missatge personalitzat**:
-
+S'ha de entrar a la carpeta main avans de la de scripts, sino emetra un missatge d'error
     ```bash
     echo 'echo "Hola, Initramfs!"' > scripts/init-top/custom_message.sh
     chmod +x scripts/init-top/custom_message.sh
